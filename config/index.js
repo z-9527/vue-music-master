@@ -45,7 +45,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './', //因为项目不是放在服务器根目录下的，所以要在这里配置。开始我是在index.html将路径手动改成相对路径，但是项目用到了路由懒加载，手动只更改了部分路径
 
     /**
      * Source Maps

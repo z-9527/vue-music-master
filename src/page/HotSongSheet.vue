@@ -78,7 +78,7 @@
 		methods:{
 			_getHotSongSheet(){
 				let id=this.$route.query.id;
-				axios.get('/static/hotSongSheet.json').then((res)=>{
+				axios.get('./static/hotSongSheet.json').then((res)=>{
 					this.info = Object.assign({},res.data[id])
 				})
 			},
