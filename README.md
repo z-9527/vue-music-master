@@ -1,6 +1,6 @@
 # music
 
-> A Vue.js project
+> 基于vue+vue-router+jsonp+vuex仿制的移动端QQ音乐 http://119.23.52.204/#/recommend
 
 ## Build Setup
 
