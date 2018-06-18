@@ -1,6 +1,6 @@
 # music
 
-项目预览地址：[仿制QQ音乐](http://119.23.52.204/#/recommend)  
+项目预览地址：[仿制QQ音乐](https://zhangzhihao1996.github.io/vue-music-master/#/recommend)  
 github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-music-master)  
 数据是线上抓取的，如果页面有问题，则是数据接口出现问题，需要重新找数据接口
 
