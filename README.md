@@ -6,7 +6,6 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 
 自己是观看慕课网上面的一款vue课程做的音乐项目。  
 慕课网地址:[全网稀缺Vue 2.0高级实战 独立开发专属音乐WebAPP](https://coding.imooc.com/class/107.html)  
-慕课网项目预览地址：[炸鸡音乐](http://ustbhuangyi.com/music/#/recommend)  
 
 <h3>技术栈</h3>
 
