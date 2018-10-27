@@ -24,14 +24,14 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 
 <h3>实现的功能</h3>
 
- 1. 推荐歌单页、电台、歌手、搜素页面
- 2. 线上抓取100名歌手信息
- 3. 编写播放器组件（包括前进、后退、上一首、下一首、播放暂停等功能）
- 4. 全页面播放（随机播放、顺序播放、单曲循环等模式切换）
- 5. 搜索页面下拉获取更多数据
- 6. localStorage存储用户播放历史和喜欢歌曲
- 7. 加载loading
- 8. 数据全是通过线上抓取,通过用promise对象封装jsonp进行跨域
+ - [x] 推荐歌单页、电台、歌手、搜素页面
+ - [x] 线上抓取100名歌手信息
+ - [x] 编写播放器组件（包括前进、后退、上一首、下一首、播放暂停等功能）
+ - [x] 全页面播放（随机播放、顺序播放、单曲循环等模式切换）
+ - [x] 搜索页面下拉获取更多数据
+ - [x] localStorage存储用户播放历史和喜欢歌曲
+ - [x] 加载loading
+ - [x] 数据全是通过线上抓取,通过用promise对象封装jsonp进行跨域
  
  ![](https://github.com/zhangZhiHao1996/image-store/blob/master/vue-music-master/02.png)&emsp;
  ![](https://github.com/zhangZhiHao1996/image-store/blob/master/vue-music-master/04.png)&emsp;
