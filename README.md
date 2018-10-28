@@ -1,7 +1,6 @@
-项目预览地址：[仿制QQ音乐](https://zhangzhihao1996.github.io/vue-music-master/#/recommend)
-github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-music-master)
+项目预览地址：[仿制QQ音乐](https://zhangzhihao1996.github.io/vue-music-master/#/recommend)  
+github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-music-master)  
 数据是线上抓取的，如果页面有问题，则是数据接口出现问题，需要重新找数据接口
-<hr/>
 <br/>
 
 ### 技术栈
@@ -37,15 +36,16 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 <br/>
 
 ### 项目目录结构
-![这里写图片描述](https://img-blog.csdn.net/2018060520585074?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODYwOTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-api存放获取后端数据的js；
-assets主要存放静态的img、js、font、css等
-components主要存放公用组件
-page主要存放路由跳转的组件
-router存放路由
-store存放状态管理
-App.vue是项目根组件
-min.js是项目入口文件
+![这里写图片描述](https://img-blog.csdn.net/2018060520585074?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODYwOTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
+<br/>
+api存放获取后端数据的js;  
+assets主要存放静态的img、js、font、css等  
+components主要存放公用组件  
+page主要存放路由跳转的组件  
+router存放路由  
+store存放状态管理  
+App.vue是项目根组件  
+min.js是项目入口文件  
 <br/>
 
 ## Build Setup
@@ -73,12 +73,14 @@ npm run build --report
  4.在手机上展开播放列表后，还可以滚动被覆盖的其他页面
  5.计算属性中不能用this.\$refs。因为计算属性在created阶段之后mounted之前执行，而this.\$refs在mounted之后才存在（生命周期还有很多地方需要理解）
  6.项目是用原生css来写的，以前并不觉得css预处理语言有什么优势，但我在写项目样式时，才发现样式复用率太低。每次都要获取父选择器，不能嵌套写，没有变量等等
+ 
 <br/>
 
 ### 最后
 我是自学的vue，所以可能还存在很多问题，比如代码不够规范、逻辑不够清晰、组件复用不够等。
 但总的来说还是有进步。公司现在改用react做项目，最近又在学习react。github上面的readme还不会写，所以没放上什么东西，但是有项目的源码，如果觉得可以还是star鼓励一下。
 <br/>
+
 
 ### 其他个人项目
 
@@ -88,7 +90,6 @@ npm run build --report
 
 <br/>
 
-<hr/>
 
 `觉得不错的给个star鼓励支持！^_^`
 
