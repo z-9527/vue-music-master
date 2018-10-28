@@ -31,8 +31,10 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 <br/>
 
 ### 项目截图
-![这里写图片描述](https://img-blog.csdn.net/20180609154603638?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODYwOTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180605204832864?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODYwOTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+<img src='https://github.com/zhangZhiHao1996/image-store/blob/master/vue-music-master/01.gif?raw=true'></img>
+<img src='https://github.com/zhangZhiHao1996/image-store/blob/master/vue-music-master/01.png?raw=true'></img>
+<img src='https://github.com/zhangZhiHao1996/image-store/blob/master/vue-music-master/02.png?raw=true'></img>
+
 <br/>
 
 ### 项目目录结构
