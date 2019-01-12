@@ -5,6 +5,10 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 数据是线上抓取的，如果页面有问题，则是数据接口出现问题，需要重新找数据接口
 <br/>
 
+<strong>2019.1.12更新</strong>  
+音乐接口和搜索接口被腾讯限制了，导致不能用，后期有时间打算重构代码和接口
+<br/>
+
 ### 技术栈
 
  - vue
