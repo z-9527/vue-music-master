@@ -9,6 +9,10 @@ github地址：[项目的github地址](https://github.com/zhangZhiHao1996/vue-mu
 音乐接口和搜索接口被腾讯限制了，导致不能用，后期有时间打算重构代码和接口
 <br/>
 
+<strong>2019.2.23更新</strong>  
+重新找了音乐播放接口，可播放音乐
+<br/>
+
 ### 技术栈
 
  - vue
