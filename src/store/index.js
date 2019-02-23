@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import {shuffle} from '@/assets/js/util'
 import createLogger from 'vuex/dist/logger'
- 
+
 Vue.use(Vuex)
 
 let playMode={    //播放模式，
@@ -10,14 +10,14 @@ let playMode={    //播放模式，
 	loop:1,
 	random:2
 }
- 
+
 const state={
 	playing:false,				//播放状态
 	mode:playMode.sequence,     //播放模式，这种写法更语义化
 	playlist:[],				//播放列表
 	sequencelist:[],  			//顺序播放列表
-	currentIndex:-1,            //当前播放索引	
-	fullScreen: false,			//播放页面是否折叠	
+	currentIndex:-1,            //当前播放索引
+	fullScreen: false,			//播放页面是否折叠
 	other:{},					//其他选项,
 	mylikeSongs:localStorage['mylikeSongs']?JSON.parse(localStorage['mylikeSongs']):[],
 	playHistory:localStorage['playHistory']?JSON.parse(localStorage['playHistory']):[],
@@ -26,7 +26,11 @@ const state={
 
 const getters={
 	currentSong(state) {
-		return state.playlist[state.currentIndex]||{}
+	  let Song = {...state.playlist[state.currentIndex]}||{}
+	  if(Song.mid){
+      Song.url = `https://api.bzqll.com/music/tencent/url?id=${Song.mid}&key=579621905&br=320`
+    }
+		return Song||{}
 	}
 }
 
@@ -71,7 +75,7 @@ const mutations={
 		state[key]=[]
 		localStorage.setItem(key,JSON.stringify(state[key]))
 	}
-} 
+}
 
 //Action 一般做异步处理，或将多个mutation封装
 const actions={
