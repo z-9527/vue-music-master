@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "create-keyframe-animation": "^0.1.0",
     "jsonp": "^0.2.1",
     "mint-ui": "^2.2.13",
